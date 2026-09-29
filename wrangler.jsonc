@@ -1,0 +1,10 @@
+{
+  // Статичний SPA (Vite build -> dist/), без власного Worker-скрипта —
+  // "assets"-only деплой, так само як Tanya-Digital.
+  "name": "timer-app",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
